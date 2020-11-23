@@ -9,7 +9,7 @@ Version : 1.0.0
  
 Colors :
 
-Header   =
+Header   = 
 Body     =
 Footer   =   
 H1       =
@@ -25,17 +25,30 @@ BTN      =
 :root{
     --main-color: ;
     --degrader:linear-gradient(to right,rgb(172, 34, 34),yellow,orange);  
-    --main2:    ;
-    --main3:    ;
+    --btn-color1: rgb(218, 214, 19)  ;
+    --btn-color2: rgb(238, 135, 17) ;
 }
 
-.test{
+.tricolor-linear{
     background: var(--degrader);
-    width: 100%;
-    height: 100vh;
-
     
-
+}
+.btn-color1{
+    background-color: var(--btn-color1);
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    color: azure;
+    font-size: 25px;
+    font-weight: bolder;
+    box-shadow: 3px 3px 3px  black;
+    text-align: center;
+}
+.btn-color1:hover{
+    border: hidden;  
+    background-color: var(--btn-color2);
+    transition: all 1s;
 }
 
 html{

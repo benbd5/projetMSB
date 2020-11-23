@@ -1,4 +1,4 @@
-/* DESCRIPTION 
+/* DESCRIPTION  for ADMIN
 
 Information :
 
@@ -24,4 +24,24 @@ BTN      =
 
 html{
     font-family: 'Prompt', sans-serif;
+}
+
+header a, header a:hover{
+    color: azure;
+}
+
+/* Header*/
+
+.color-text-azure{
+    color: azure;
+}
+
+/* Section1 */
+
+.size-s1{
+    height: 300px;
+    text-align:center;
+}
+.btn-color1{
+    margin-top: 100px;
 }
