@@ -24,9 +24,10 @@ BTN      =
 
 :root{
     --main-color: ;
-    --degrader:linear-gradient(to right,rgb(172, 34, 34),yellow,orange);  
+    --degrader:linear-gradient(to right,rgb(172, 34, 34),yellow,orange,rgb(172, 34, 34));  
     --btn-color1: rgb(218, 214, 19)  ;
     --btn-color2: rgb(238, 135, 17) ;
+    --main3:    ;
 }
 
 .tricolor-linear{
