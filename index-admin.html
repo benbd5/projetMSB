@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MSB/Admin</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -16,11 +18,11 @@
 <body>
     <header>
         <!-- navbar -->
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-12">
-                    <nav class="navbar navbar-expand-lg tricolor-linear color-text-azure">
-                        <a class="navbar-brand" href="#">Accueil</a>
+                    <nav class="navbar navbar-expand-lg tricolor-linear color-text-azure flex-nav">
+                        <a class="navbar-brand" href="./index-accueil.html">Accueil</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -35,8 +37,8 @@
                     <nav class="navbar tricolor-linear">
                         <a class="navbar-brand color-text-azure">Page Administrateur</a>
                         <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Go</button>
                         </form>
                     </nav>
                 </div>
@@ -50,14 +52,14 @@
                 <div class="col-md-12">
                     <div class="row ">
                         <div class="col-md-4">
-                            <button class="btn-color1">Espace Abonnés</button>
+                            <button class="btn-color1"><a href="#Données des abonnés">Espace Abonnés</a></button>
                         </div>
                         <div class="col-md-4">
-                            <button class="btn-color1">Ajouter du contenu</button>
+                            <button class="btn-color1"><a href="#Ajouté du contenu">Ajouter du contenu</a></button>
                             
                         </div>  
                         <div class="col-md-4">
-                            <button class="btn-color1">Supprimer du contenu</button>
+                            <button class="btn-color1"><a href="#Suppression du contenu">Supprimer du contenu</a></button>
 
                         </div>         
                     </div>
@@ -70,7 +72,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Données des abonnés :</h1>
+                    <h1>Data-tables</h1>
+                    <h2 id="Données des abonnés">Données des abonnés :</h2>
                     <table>
                         <thead>
                             <tr>
@@ -85,79 +88,140 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Premium</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Family</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Premium</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Premium</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Family</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Premium</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>vlad@g-pas-de-mail.com</td>
+                                <td>23/11/2020</td>
+                                <td>Premium</td>
+                                <td>17:00</td>
+                                <td>2:00</td>
+                                <td><i class="fas fa-stop-circle"></i></td>
+                                <td><i class="fas fa-trash-restore-alt"></i></td>
                             </tr>
                         </tbody>
                         <tfoot>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td colspan="1"><input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search"></td>               
+                                <td><button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Go</button></td>
+                                <td colspan="3" class=""><a href=""><i class="fas fa-arrow-circle-left"></i>&ensp;1&ensp;-&ensp;2&ensp;-&ensp;3&ensp;<i class="fas fa-arrow-circle-right"></i></a></td>
                             </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section3 -->
+    <section>
+        <div class="container m-top-100">
+            <div class="row">
+                <div class="col-md-12">
+                  <h2 id="Ajouté du contenu">Ajouté du contenu audio :</h2>
+                    <table class="w-100">
+                        <thead>
+                            <tr>
+                                <th>Titre(s) à uploader</th>
+                                <th>Nom de l'artiste</th>
+                                <th>Nom du répertoire</th>
+                                <th>Genre musical</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                               <td>                                  
+                                    <input type="file"
+                                       id="tune" name="tune"
+                                       accept="audio/.mp3">
+                                </td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="submit"></td>
+                            </tr>
+                        </tbody>  
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section4 -->
+    <section>
+        <div class="container m-top-100">
+            <div class="row">
+                <div class="col-md-12">
+                  <h2 id="Suppression du contenu">Suppression du contenu audio :</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Titre(s) à retirer</th>
+                                <th>Commentaire</th>
+                                
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>                                  
+                                    <input type="file"
+                                       id="tune" name="tune"
+                                       accept="audio/.mp3">
+                                </td>  
+                                <td><input type="text"></td>
+                                <td><input type="submit"></td>
+                            </tr>
+                        </tbody>  
                         </tfoot>
                     </table>
                 </div>
