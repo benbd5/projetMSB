@@ -19,9 +19,20 @@ BTN      =
 
 */
 
-
 /* Global */
 
-html{
+html {
     font-family: 'Prompt', sans-serif;
 }
+
+/* ===== ACCUEIL ===== */
+
+.big-bloc {
+    background-color: aqua;
+}
+
+.little-bloc {
+    background-color: bisque;
+}
+
+/* =====EMISSIONS ET PODCASTS===== */
