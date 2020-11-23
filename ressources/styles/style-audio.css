@@ -141,8 +141,8 @@ i{
          align-items: center;
      }
      .musique{
-         border: 1px black solid;
-         height: 500px;
+        
+         height: 400px;
          display: flex;
          flex-direction: column;
          width: 100%;
@@ -167,6 +167,26 @@ i{
          justify-content: center;
          align-items: center;
         
+     }
+     .titre-music p{
+         text-align: justify;
+     }
+     .bar-music{
+         border: 1px black solid;
+         border-radius: 20px;
+         height: 50px;
+         width: 100%;
+         position: fixed;
+         bottom: 0px;
+         z-index:  1; 
+         background-color: white;
+         
+     }
+     .lecture{
+         width: 50%;
+     }
+     .slide{
+         width: 10%;
      }
 
     }
