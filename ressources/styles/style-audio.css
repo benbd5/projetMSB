@@ -26,20 +26,17 @@ html{
     font-family: 'Prompt', sans-serif;
 }
 .titre{
-    border: 1px  black solid;
-    width: 20%;
-}
-header{
-    display: 
+    text-align: center;
 }
 .search-menu{
-    border: 1px red solid;
+    
     height: 100px;
-    width: 50%;
-    position: relative;
+
+
 }
+  
 .search{
-    border: 1px  black solid;
+   ;
     height:50PX ;
    display: flex;
 
@@ -54,14 +51,14 @@ header{
 }
 input{
     width: 100%;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .icone{
     
     width: 30%;
     height: 50PX;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 i{
     font-size: 200%;
@@ -75,6 +72,14 @@ i{
     height: 50PX;
     border-radius:20px ;
 }
+.menu{
+    border:1px  black solid ;
+    height: 50PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
  @media screen and (max-width:480px){ 
