@@ -25,3 +25,111 @@ BTN      =
 html{
     font-family: 'Prompt', sans-serif;
 }
+.titre{
+    border: 1px  black solid;
+    width: 20%;
+}
+header{
+    display: 
+}
+.search-menu{
+    border: 1px red solid;
+    height: 100px;
+    width: 50%;
+    position: relative;
+}
+.search{
+    border: 1px  black solid;
+    height:50PX ;
+   display: flex;
+
+}
+
+.bar{
+         
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+    margin-left: 5px;
+}
+.icone{
+    
+    width: 30%;
+    height: 50PX;
+    display: flex;
+    justify-content: flex-end;
+}
+i{
+    font-size: 200%;
+    height: 50PX;
+    position: relative;
+    right: 20PX;
+    top:5PX
+}
+.photo-profile{
+    width: 40PX;
+    height: 50PX;
+    border-radius:20px ;
+}
+
+
+ @media screen and (max-width:480px){ 
+     .titre {
+         text-align: center;
+     }
+
+     .search-menu{
+         border: 1px black solid ;
+         height: 100px;
+
+     }
+     
+     .search{
+         border: 1px  black solid;
+         height:50PX ;
+        display: flex;
+
+     }
+     .bar{
+         
+         width: 70%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     input{
+         width: 100%;
+         margin-left: 5px;
+     }
+     .icone{
+         
+         width: 30%;
+         height: 50PX;
+         display: flex;
+         justify-content: flex-end;
+     }
+     i{
+         font-size: 200%;
+         height: 50PX;
+         position: relative;
+         right: 20PX;
+         top:5PX
+     }
+     .photo-profile{
+         width: 40PX;
+         height: 50PX;
+         border-radius:20px ;
+     }
+     .menu{
+         border:1px  black solid ;
+         height: 50PX;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+     }
+
+    }
