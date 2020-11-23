@@ -48,6 +48,7 @@ BTN      =
 .btn-color1:hover{
     border: hidden;  
     background-color: var(--btn-color2);
+    transform: scale(1.1);
     transition: all 1s;
 }
 
