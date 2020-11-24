@@ -51,6 +51,8 @@ BTN      =
     background-color: var(--btn-color2);
     transform: scale(1.1);
     transition: all 1s;
+    text-decoration: none;
+    color: white;
 }
 
 html{
