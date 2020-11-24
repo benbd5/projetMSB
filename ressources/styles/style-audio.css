@@ -36,7 +36,7 @@ html{
 }
   
 .search{
-   ;
+   
     height:50PX ;
    display: flex;
 
@@ -85,7 +85,7 @@ i{
 
 
 
- @media screen and (max-width:480px){ 
+ @media screen and (max-width:800px){ 
      .titre {
          text-align: center;
      }
@@ -220,24 +220,26 @@ i{
          justify-content: center;
      }
      .contain{
-         border: 1px black solid;
+         
          height: 500px;
          margin-top: 10Px;
          display: flex;
         flex-direction: row;
         flex-flow: row wrap;
+        flex-wrap: wrap;
         justify-content: center;
        
     }
     .block-playlist{
         border: 1px  black solid;
-        height: 50%px;
-        width: 45%;
+        height: 45%;
+        width: 46%;
         margin-top: 5px;
         margin-left: 5px;
-        
-
-
     }
+    .btn-p{
+        text-align: center;
+    }
+
 
 }
