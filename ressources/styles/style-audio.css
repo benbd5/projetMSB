@@ -180,13 +180,64 @@ i{
          bottom: 0px;
          z-index:  1; 
          background-color: white;
+         display: flex;
+         justify-content: center;
          
      }
+     .befor{
+         margin-right: 5px;
+     }
+     .after{
+        margin-right: 5px;
+    }
+
      .lecture{
          width: 50%;
+         display: flex;
+
+     }
+     .reapt{
+         display: flex;
+         width: 20px;
+         justify-content: f;
+     }
+     .logo-2{
+         margin-left: 30px;
      }
      .slide{
-         width: 10%;
+         width: 50%;
      }
+     .playliste{
+         height: 600px;
+         display: flex;
+         flex-direction: column;
+         justify-content: ;
+
+     }
+     .titre-playlist{
+         border: 1px black solid;
+         display: flex;
+         justify-content: center;
+     }
+     .contain{
+         border: 1px black solid;
+         height: 500px;
+         margin-top: 10Px;
+         display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        justify-content: center;
+       
+    }
+    .block-playlist{
+        border: 1px  black solid;
+        height: 50%px;
+        width: 45%;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+
 
     }
+
+}
