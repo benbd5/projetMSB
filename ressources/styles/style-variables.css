@@ -58,4 +58,8 @@ BTN      =
 html{
     font-family: 'Prompt', sans-serif;
 }
+.pp{
+    font-size: 20px;
+    color: black;
+}
 
