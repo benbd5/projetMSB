@@ -11,6 +11,11 @@
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
 
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
     <!-- style -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -19,42 +24,46 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- ===== OFFRE SPECIALE ===== -->
         <section class="offre-speciale">
-            <div class="row">
-
-                <!-- TODO : linear-gradient sur la div -->
-
+            <div class="row d-flex justify-content-center">
                 <div class="col-md-12 text-center gradient">
                     <h1>MSB</h1>
-                    <!-- <span class="offert">3 mois offerts</span> -->
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis repellendus est ducimus
-                        doloribus sint, dolores quia iusto. Explicabo, possimus?</p>
-                    <button class="btn btn-primary">
-                        J'en profite
+                    <h2 class="offert">3 mois offerts</h2>
+                    <p>Puis 9,99€/mois</p>
+                    <button class="btn btn-color1">
+                        <a href="./index-offres.html">
+                            J'en profite
+                        </a>
                     </button>
                 </div>
             </div>
         </section>
 
         <!-- ===== CHOISIR MSB ===== -->
-        <section class="choix">
+        <section class="choix d-flex align-items-center">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <h2>Pourquoi choisir MSB ?</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4 home-content">
-                        <h4 class="text-center">Musique illimitée</h4>
+                        <h4 class="text-center">
+                            <i class="far fa-check-circle"></i>
+                            Musique illimitée
+                        </h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nisi qui facere impedit nemo
                             dolorum, animi nostrum voluptate omnis molestiae officiis ipsa, aspernatur sunt quaerat
                             fugit
                             natus placeat, unde porro.</p>
                     </div>
                     <div class="col-md-4 home-content">
-                        <h4 class="text-center">Son de haute qualité</h4>
+                        <h4 class="text-center">
+                            <i class="far fa-check-circle"></i>
+                            Son de haute qualité
+                        </h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nisi qui facere impedit nemo
                             dolorum, animi
                             nostrum voluptate omnis molestiae officiis ipsa, aspernatur sunt quaerat fugit natus
@@ -62,8 +71,48 @@
                             unde porro.</p>
                     </div>
                     <div class="col-md-4 home-content">
-                        <h4 class="text-center">Pas de publicité</h4>
+                        <h4 class="text-center">
+                            <i class="far fa-check-circle"></i>
+                            Pas de publicité
+                        </h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nisi qui facere impedit nemo
+                            dolorum, animi
+                            nostrum voluptate omnis molestiae officiis ipsa, aspernatur sunt quaerat fugit natus
+                            placeat,
+                            unde porro.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 home-content">
+                        <h4 class="text-center">
+                            <i class="far fa-check-circle"></i>
+                            Musique illimitée
+                        </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nisi qui facere impedit
+                            nemo
+                            dolorum, animi nostrum voluptate omnis molestiae officiis ipsa, aspernatur sunt quaerat
+                            fugit
+                            natus placeat, unde porro.</p>
+                    </div>
+                    <div class="col-md-4 home-content">
+                        <h4 class="text-center">
+                            <i class="far fa-check-circle"></i>
+                            Son de haute qualité
+                        </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nisi qui facere impedit
+                            nemo
+                            dolorum, animi
+                            nostrum voluptate omnis molestiae officiis ipsa, aspernatur sunt quaerat fugit natus
+                            placeat,
+                            unde porro.</p>
+                    </div>
+                    <div class="col-md-4 home-content">
+                        <h4 class="text-center">
+                            <i class="far fa-check-circle"></i>
+                            Pas de publicité
+                        </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nisi qui facere impedit
+                            nemo
                             dolorum, animi
                             nostrum voluptate omnis molestiae officiis ipsa, aspernatur sunt quaerat fugit natus
                             placeat,
@@ -83,9 +132,17 @@
                         veritatis inventore, voluptas blanditiis quasi explicabo repellat quisquam ipsam autem, vero a
                         est
                         deleniti nesciunt minima?</p>
-                    <div class="image">
-                        IMAGE
-                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-4 col-md-3 d-flex align-items-center">
+                    <img src="./ressources/images-accueil/left.jpg" class="img-fluid" alt="casque audio">
+                </div>
+                <div class="col-4 col-md-6 d-flex justify-content-center  align-items-center">
+                    <img src="./ressources/images-accueil/mid.jpg" class="img-fluid" alt="casque audio">
+                </div>
+                <div class="col-4 col-md-3 d-flex align-items-center">
+                    <img src="./ressources/images-accueil/right.jpg" class="img-fluid" alt="casque audio">
                 </div>
             </div>
         </section>
@@ -98,22 +155,48 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <div class="little-bloc">
-                        <h4>Découvertes</h4>
+                        <h3>Découvertes</h3>
                         <p>MSB vous fait découvrir de nouveaux artistes</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 text-center">
                     <div class="big-bloc">
-                        <h4>IA</h4>
+                        <h3>IA</h3>
                         <p>Musiques personnalisées grâce à l'intelligence artificielle</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <div class="little-bloc">
-                        <h4>Nouveautés</h4>
+                        <h3>Nouveautés</h3>
                         <p>De nouvelles musiques toutes les semaines</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="little-bloc">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum corrupti suscipit beatae
+                            quisquam vero? Officia similique modi ratione assumenda magni voluptatum impedit fuga quam
+                            aperiam, harum, rem tempore nobis.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="big-bloc">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum corrupti suscipit beatae
+                            quisquam vero? Officia similique modi ratione assumenda magni voluptatum impedit fuga quam
+                            aperiam, harum, rem tempore nobis.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="little-bloc">
+                        <h3>Titre</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum corrupti suscipit beatae
+                            quisquam vero? Officia similique modi ratione assumenda magni voluptatum impedit fuga quam
+                            aperiam, harum, rem tempore nobis.</p>
                     </div>
                 </div>
             </div>
@@ -182,26 +265,26 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 col-md-3 text-center">
-                    <div class="emission">
+                <div class="col-6 col-md-3 text-center d-flex justify-content-center">
+                    <div class="emission device-card">
                         <img src="./ressources/images-accueil/google-home.jpg" class="img-fluid" alt="google-home">
                         <small>Google home</small>
                     </div>
                 </div>
-                <div class="col-6 col-md-3 text-center">
-                    <div class="emission">
+                <div class="col-6 col-md-3 text-center d-flex justify-content-center">
+                    <div class="emission device-card">
                         <img src="./ressources/images-accueil/alexa.jpg" class="img-fluid" alt="alexa amazon">
                         <small>Amazon Alexa</small>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 text-center">
-                    <div class="emission">
+                <div class="col-12 col-md-3 text-center d-flex justify-content-center">
+                    <div class="emission device-card">
                         <img src="./ressources/images-accueil/bose.jpg" class="img-fluid" alt="bose">
                         <small>Bose</small>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 text-center">
-                    <div class="emission">
+                <div class="col-12 col-md-3 text-center d-flex justify-content-center">
+                    <div class="emission device-card">
                         <img src="./ressources/images-accueil/tv.jpg" class="img-fluid" alt="televison">
                         <small>TV connectée</small>
                     </div>
@@ -221,96 +304,105 @@
             <!-- ACCORDEON FAQ -->
             <div class="row">
                 <div class="col-md-12">
-
-
-                    <div id="accordion">
+                    <div class="accordion" id="accordion" role="tablist">
                         <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        Quels sont les avantages d'un abonnement MSB ?
-                                    </button>
-                                </h5>
+                            <div class="card-header" role="tab" id="heading-1">
+                                <h6 class="mb-0"> <a data-toggle="collapse" href="#collapse-1" aria-expanded="false"
+                                        aria-controls="collapse-1" data-abc="true" class="collapsed"> Quels sont les
+                                        avantages d'un abonnement MSB ? </a> </h6>
                             </div>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordion">
+                            <div id="collapse-1" class="collapse" role="tabpanel" aria-labelledby="heading-1"
+                                data-parent="#accordion" style="">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf
-                                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                                    laborum
-                                    eiusmod.
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                    nulla
-                                    assumenda
-                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                                    nesciunt
-                                    sapiente ea
-                                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table,
-                                    raw denim
-                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                    sustainable
-                                    VHS.
+                                    <div class="row">
+                                        <div class="col-3"> <img
+                                                src="https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+                                                class="mw-100" alt="image"> </div>
+                                        <div class="col-9">
+                                            <p class="mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                                accusamus terry
+                                                richardson ad
+                                                squid. 3 wolf
+                                                moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                                quinoa nesciunt
+                                                laborum
+                                                eiusmod.
+                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                single-origin coffee
+                                                nulla
+                                                assumenda
+                                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                                anderson cred
+                                                nesciunt
+                                                sapiente ea
+                                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                                beer
+                                                farm-to-table,
+                                                raw denim
+                                                aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                                labore
+                                                sustainable
+                                                VHS.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Quelle est la différence entre un compte premium et un compte famille ?
-                                    </button>
-                                </h5>
+                            <div class="card-header" role="tab" id="heading-2">
+                                <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-2"
+                                        aria-expanded="false" aria-controls="collapse-2" data-abc="true"> Combien
+                                        d'appareils peuvent être associés à un abonnement MSB premium ? </a> </h6>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            <div id="collapse-2" class="collapse" role="tabpanel" aria-labelledby="heading-2"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf
-                                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                                    laborum
-                                    eiusmod.
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
-                                    nulla
-                                    assumenda
-                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                                    nesciunt
-                                    sapiente ea
-                                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table,
-                                    raw denim
-                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                    sustainable
-                                    VHS.
+                                    <p>For what reason would it be advisable for me to think about business content?
+                                        That might be little bit
+                                        risky to have crew member like them.</p>
+                                    <ol class="pl-3 mt-4">
+                                        <li>connection and try again</li>
+                                        <li>correct while signing in</li>
+                                        <li>your account is accessible in your region</li>
+                                    </ol> <br>
+                                    <p class="text-success"> <i class="mdi mdi-alert-octagon mr-2"></i>you can contact
+                                        our support. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Combien d'appareils peuvent être associés à un abonnement MSB premium ?
-                                    </button>
-                                </h5>
+                            <div class="card-header" role="tab" id="heading-3">
+                                <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapse-3"
+                                        aria-expanded="false" aria-controls="collapse-3" data-abc="true"> Combien
+                                        d'appareils peuvent être associés à un abonnement MSB premium ? </a> </h6>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            <div id="collapse-3" class="collapse" role="tabpanel" aria-labelledby="heading-3"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 appareils.
+                                    <p class="mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                        terry
+                                        richardson ad
+                                        squid. 3 appareils.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OFFRE SPECIALE ===== -->
+        <section class="offre-speciale">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 text-center gradient">
+                    <h1>MSB</h1>
+                    <h2 class="offert">3 mois offerts</h2>
+                    <p>Puis 9,99€/mois</p>
+                    <button class="btn btn-color1">
+                        <a href="./index-offres.html">
+                            J'en profite
+                        </a>
+                    </button>
                 </div>
             </div>
         </section>
