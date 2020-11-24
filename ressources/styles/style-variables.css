@@ -25,8 +25,8 @@ BTN      =
 :root{
     --main-color: ;
     --degrader:linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 5),orange,rgba(172, 34, 34,0.9));  
-    --btn-color1: rgb(218, 214, 19)  ;
-    --btn-color2: rgb(238, 135, 17) ;
+    --btn-color1: rgb(211, 132, 5)  ;
+    --btn-color2: rgba(172, 34, 34,0.9) ;
     --main3:    ;
 }
 
@@ -63,3 +63,37 @@ html{
     color: black;
 }
 
+/* Codes CSS & HTML pour le logo */
+/*===========================================================*/
+
+/*  Coller cette "div" en html  ==>  <div class="logo-MSB"><p>MSB</p></div> 
+            
+    Pour la version static ==>  <div class="logo-MSB2"><p>MSB</p></div> */
+
+.logo-MSB, .logo-MSB2{
+    background-image: url(/ressources/image/disque.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    content: "MSB";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.logo-MSB:hover{
+    transform: rotate(360deg);
+    transition: all 5s;
+}
+
+.logo-MSB p, .logo-MSB2 p{
+    
+    margin-top: 0px ;
+    color: azure;
+    font-family:  'Bungee Shade', cursive;
+    font-size: 70px;
+}
+/*============================================================*/

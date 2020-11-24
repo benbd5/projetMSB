@@ -54,6 +54,14 @@ button a,button a:hover{
 .m-bot-100{
     margin-bottom: 100px;
 }
+.separation::after{
+    display: block;
+    width: 80%;
+    height: 4px;
+    content: "";
+    background-color:#000;
+    margin: 200px auto;
+}
 /* Header*/
 
 .color-text-azure{
@@ -67,11 +75,11 @@ button a,button a:hover{
 /* Section1 */
 
 .size-s1{
-    height: 360px;
+    height: 500px;
     text-align:center;
 }
 .btn-color1{
-    margin: 150px auto;
+    margin: 95px auto;
 }
 
 /* section2 */
