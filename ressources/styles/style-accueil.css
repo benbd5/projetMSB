@@ -236,11 +236,14 @@ h2 {
 }
 
 .accordion .card .card-header a[aria-expanded="false"]:before {
-    content: "\f067"
+    content: '\2335';
+    font-size: large;
 }
 
 .accordion .card .card-header a[aria-expanded="true"]:before {
-    content: "\f068"
+    content: "\2335";
+    font-size: large;
+    rotate: 180deg;
 }
 
 .accordion .card .card-header a:before {
