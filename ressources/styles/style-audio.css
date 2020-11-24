@@ -42,6 +42,7 @@ align-items: flex-end;
 }
 .titre-2{
 text-align: center;
+margin-left: 40px;
 }
 .search-menu{
     height: 100px;
@@ -89,17 +90,25 @@ i{
     border-radius:20px ;
    
 }
+table{
+    margin-left: 100px;
+}
 .menu-nav{
     border: 1px black solid;
     display: flex ;
     flex-direction: column;
-    height: 500px;
+    align-items: center;
+    height: 1000px;
     width: 10%;
+    border-radius: 10px;
 }
  .menu-2{
      display: flex;
      flex-direction: column;
-     display:;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    height: 200px;
+     
  }
 
 .menu{
@@ -127,7 +136,79 @@ i{
 }
 .titre-music{
     margin-top: 15px;
+    width: auto;
 }
+.bar-music{
+    border: 1px black solid;
+    border-radius: 20px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index:  1; 
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.befor{
+    margin-right: 5px;
+}
+.after{
+   margin-right: 5px;
+}
+
+.lecture{
+    width: 50%;
+    display: flex;
+
+}
+.reapt{
+    display: flex;
+    width: 20px;
+    justify-content: f;
+}
+.logo-2{
+    margin-left: 30px;
+}
+.slide{
+    width: 50%;
+}
+.playliste{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+
+}
+.titre-playlist{
+ 
+    display: flex;
+    justify-content: center;
+}
+.titre-playlist h3{
+    border-bottom:3px black solid ;
+    margin-top: 15px;
+}
+.contain{
+    
+    height: 500px;
+    margin-top: 10Px;
+    display: flex;
+   justify-content: center;
+  
+}
+.block-playlist{
+   border: 1px  black solid;
+   height: 45%;
+   width: 15%;
+   margin-top: 5px;
+   margin-left: 40px;
+}
+.btn-p{
+   text-align: center;
+}
+
 
 
 
@@ -193,6 +274,7 @@ i{
          height: 50PX;
          border-radius:20px ;
          margin-bottom: 10px;
+         object-fit: cover;
      }
      .menu{
          border:1px  black solid ;
