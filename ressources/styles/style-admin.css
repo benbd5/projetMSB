@@ -23,6 +23,8 @@ BTN      =
 
 /* Global */
 
+
+
 html{
     font-family: 'Prompt', sans-serif;
 }
@@ -97,3 +99,10 @@ th{
 .w-100{
     width: 100%;
 }
+
+/* graphique */
+
+#chart {
+    max-width: 650px;
+    margin: 50px auto;
+  }
