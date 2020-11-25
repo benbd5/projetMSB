@@ -95,7 +95,7 @@ html{
     margin-top: 0px ;
     color: azure;
     font-family:  'Bungee Shade', cursive;
-    font-size: 40px;
+    font-size: 50px;
 }
 /*============================================================*/
 
@@ -318,6 +318,7 @@ nav .navbar .flex-nav{
     }
     footer .logo-MSB2 p {
         font-size: 50px;
+        font-weight: bold;
     }
 }
 /*==========================================================*/
