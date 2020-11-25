@@ -75,8 +75,8 @@ html{
     background-size: cover;
     border: none;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: auto;
     content: "MSB";
     display: flex;
@@ -95,7 +95,7 @@ html{
     margin-top: 0px ;
     color: azure;
     font-family:  'Bungee Shade', cursive;
-    font-size: 70px;
+    font-size: 50px;
 }
 /*============================================================*/
 
