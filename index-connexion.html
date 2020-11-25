@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MSB</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -18,7 +20,7 @@
     <!-- navbar -->
     <header>
         <nav >
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row navbar">
@@ -54,17 +56,35 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="col-md-7 flex-box2 ">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div>
+                                <div class="col-md-12 ">
+                                    <div class="row flex-box1">
+                                        <div class="col-md-6">
+                                            <div class="border-box">
                                                 <h1>Connectez-vous</h1>
                                                 <div>
-                                                    <button></button>
-                                                    <button></button>
+                                                    <a href=""><button class=""><i class="fab fa-apple"></i>&ensp;Apple</button></a>
+                                                    <a href=""><button class=""><i class="fab fa-facebook"></i>&ensp;Facebook</button></a>
                                                 </div>
+                                                <div>
+                                                    <a href=""><button class=""><i class="fab fa-google"></i>&ensp;Google</button></a>
+                                                </div>
+                                                <div>
+                                                    <input type="email" placeholder="Adresse email">
+                                                </div>
+                                                <div>
+                                                    <input type="password" placeholder="Mot de passe">
+                                                </div>
+                                                <div>
+                                                    <a href=""><button class="">Connexion</button></a>
+                                                </div>
+                                                <div>
+                                                    <a href=""><p>Mot de passe oublié ?</p></a>
+                                                    <p>Vous ne possédez pas encore de compte sur MSB ?</p>
+                                                    <a href="./index-inscription.html"><p>Inscription</p></a>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +93,7 @@
                             
                         </div>
                         <div class="col-md-5">
-                            <div class="bg-guitar">
+                            <div class="bg-monique">
                                 
                             </div>
                         </div>
@@ -82,6 +102,105 @@
             </div>
         </div>
     </section>
+    <!-- ===== Footer ===== -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div class="social-color">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Restez connectés !</h6>
+                    </div>
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                        </a>
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+        <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">MSB</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <a href="./index-accueil.html">
+                    <div class="logo-MSB2">
+                        <p>MSB</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">Plan du site</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="./index-accueil.html">Accueil</a>
+                </p>
+                <p>
+                    <a href="./index-offres.html">Offres</a>
+                </p>
+                <p>
+                    <a href="./index-telecharger.html">Télécharger</a>
+                </p>
+                <p>
+                    <a href="/index-inscription.html">Inscription</a>
+                </p>
+
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="./index-connexion.html">Connexion</a>
+                </p>
+                <p>
+                    <a href="/index-profil.html">Votre profil</a>
+                </p>
+                <p>
+                    <a href="./index-audio.html">Votre musique</a>
+                </p>
+                <p>
+                    <a href="#!">Aide</a>
+                </p>
+
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fas fa-home mr-3"></i>
+                    La Roche-Sur-Yon
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i>
+                    contact@msb.com
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i>
+                    01 23 45 67 88
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="#!"> MSB </a>
+    </div>
+</footer>
 
 </body>
     

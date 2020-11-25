@@ -25,12 +25,34 @@ BTN      =
 html{
     font-family: 'Prompt', sans-serif;
 }
-
+h1{
+    font-size: 35px;
+}
 
 /* connectez-vous */
 
-.bg-guitar{
+.bg-monique{
     background-image: url(../image/miss\ monique.jpg);
     background-size: cover;
     height: 800px;
+}
+.flex-box1{   
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.flex-box2{
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.border-box{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px auto;   
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
 }
