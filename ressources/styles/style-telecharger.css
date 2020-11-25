@@ -27,9 +27,25 @@ html{
 }
 header{
     border: 1px  black solid;
-    height: 200px;
+    height: 210px;
     background-image: url(/cache/slash/images/pages/electron/devices/device-windows.c2d30b5….png);
 }
+.flex-nav-2{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.flex-col-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    
+}
+button{
+    margin-right: 10px;
+}
+
 
 @media screen  and (max-width:800px){
     header{
