@@ -98,7 +98,7 @@ table{
     display: flex ;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
+    height: 900px;
     width: 10%;
     border-radius: 10px;
 }
@@ -120,8 +120,8 @@ table{
     display: none;
 
 }
-.nav{
-    display: ;
+.nav-2 a{
+   color:  rgb(211, 132, 5) ;
 }
 .musique{
    
@@ -175,7 +175,7 @@ table{
     width: 50%;
 }
 .playliste{
-    height: 600px;
+ 
     display: flex;
     flex-direction: column;
     justify-content: ;
@@ -192,7 +192,7 @@ table{
 }
 .contain{
     
-    height: 500px;
+    height: 300px;
     margin-top: 10Px;
     display: flex;
    justify-content: center;
@@ -200,13 +200,15 @@ table{
 }
 .block-playlist{
    border: 1px  black solid;
-   height: 45%;
-   width: 15%;
+   height: 75%;
    margin-top: 5px;
    margin-left: 40px;
 }
 .btn-p{
    text-align: center;
+}
+.side{
+    color:  rgb(211, 132, 5) ;;
 }
 
 
