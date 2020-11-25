@@ -25,6 +25,18 @@ html {
     font-family: 'Prompt', sans-serif;
 }
 
+/* ===== HEADER ===== */
+
+nav .navbar .flex-nav {
+    height: 150px;
+}
+
+@media (max-width:430px) {
+    nav .navbar .flex-nav {
+        height: 300px;
+    }
+}
+
 /* ===== OFFRE SPECIALE ===== */
 
 .offre-speciale {
@@ -220,4 +232,26 @@ ul li i {
 
 .abt .row {
     margin-bottom: 10px;
+}
+
+/* ===== FOOTER ===== */
+
+.social-color {
+    background-color: rgb(123, 154, 255);
+}
+
+.social-color i {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-MSB2 {
+        margin-left: -50px;
+        width: 150px;
+        height: 150px;
+    }
+    .logo-MSB2 p {
+        font-size: 50px;
+    }
 }
