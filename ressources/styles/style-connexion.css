@@ -25,3 +25,12 @@ BTN      =
 html{
     font-family: 'Prompt', sans-serif;
 }
+
+
+/* connectez-vous */
+
+.bg-guitar{
+    background-image: url(../image/guitar-944262_1920.jpg);
+    background-size: cover;
+    height: 800px;
+}

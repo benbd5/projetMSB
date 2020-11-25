@@ -198,5 +198,16 @@ nav .navbar .flex-nav{
         font-size: 50px;
     } 
 }
+@media (max-width:768px) {
+
+    .logo-MSB,.logo-MSB2{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .logo-MSB p,.logo-MSB2 p{
+        font-size: 40px;
+    } 
+}
 
  /*=============================================================*/
