@@ -72,6 +72,7 @@ html {
 
 ul li {
     list-style: none;
+    text-overflow: ellipsis;
 }
 
 .offre-none {
@@ -188,4 +189,35 @@ ul li i {
 
 #premium:hover a {
     color: #fff;
+}
+
+/* ===== AUTRES ABONNEMENTS ===== */
+
+.abt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.abt h3 {
+    margin-top: 20px;
+}
+
+.btn-abt {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0.3rem 0.6rem;
+}
+
+.btn-abt:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.abt .row {
+    margin-bottom: 10px;
 }
