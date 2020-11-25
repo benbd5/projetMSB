@@ -83,11 +83,12 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    
 }
 .logo-MSB:hover{
     transform: rotate(360deg);
     transition: all 5s;
-}
+}    
 
 .logo-MSB p, .logo-MSB2 p{
     
@@ -97,3 +98,105 @@ html{
     font-size: 70px;
 }
 /*============================================================*/
+
+/* Navbar */
+
+/* Coller ce code HTML en "Header" pour la navbar ==>
+
+    <header>
+        <nav >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row navbar">
+                            <div class="col-md-4">
+                                <a href="./index-accueil.html"><div class="logo-MSB2"><p>MSB</p></div></a> 
+                            </div>
+                            <div class="col-md-8 ">
+                                <div class="row flex-nav">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-4 flex-col">
+                                                <a href="./index-telecharger.html">Télécharger</a>
+                                                <a href="./index-offres.html">Offres</a>
+                                            </div>
+                                            <div class="col-md-8 flex-col">
+                                                <button class="btn-color1"><a href="./index-connexion.html">Connexion</a></button>
+                                                <button class="btn-color1"><a href="./index-inscription.html">Inscription</a></button>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>    
+    </header>
+
+==============================================================*/    
+/*Navbar*/
+
+nav .navbar button a,nav .navbar button a:hover{
+    text-decoration: none;
+    color: azure;
+}
+nav .navbar a,nav .navbar a:hover{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+nav .navbar .flex-nav a:hover{
+    text-decoration: underline 4px orange;
+    text-underline-offset: 20px ;
+}
+nav .navbar .flex-nav button a:hover{
+    text-decoration: none;
+}    
+nav .navbar .flex-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 250px;
+}
+ nav .navbar button{
+     width: 200px!important;
+ }
+ .flex-nav .flex-col{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     padding: 0px;
+     align-content: center;
+
+ }
+@media (max-width:1280px) {
+    nav .navbar .flex-nav{ 
+        display: flex;
+        flex-flow: row wrap;
+        height: 300px;
+    }
+    button,a{
+        margin-top: 40px;
+    }
+     a:hover{
+         
+         text-decoration: none;
+     }                             
+}
+@media (max-width:1000px) {
+   
+    .logo-MSB,.logo-MSB2{
+        width: 200px;
+        height: 200px;
+        
+    }
+    .logo-MSB p,.logo-MSB2 p{
+        font-size: 50px;
+    } 
+}
+
+ /*=============================================================*/
