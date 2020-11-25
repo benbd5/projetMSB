@@ -101,6 +101,8 @@ table{
     height: 900px;
     width: 10%;
     border-radius: 10px;
+    position: relative;
+    top: 50px;
 }
  .menu-2{
      display: flex;
@@ -210,6 +212,24 @@ table{
 .side{
     color:  rgb(211, 132, 5) ;;
 }
+ .logo-MSB3{
+    background-image: url(/ressources/image/disque.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    content: "MSB";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .logo-MSB3 p{
+     color: white;
+     text-decoration: uppercase;
+     font-size: 30px;
+ }
 
 
 
@@ -389,6 +409,9 @@ table{
     }
     .btn-p{
         text-align: center;
+    }
+    .logo-MSB3{
+        display: none;
     }
 
 
