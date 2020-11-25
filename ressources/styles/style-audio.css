@@ -98,9 +98,11 @@ table{
     display: flex ;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
+    height: 900px;
     width: 10%;
     border-radius: 10px;
+    position: relative;
+    top: 50px;
 }
  .menu-2{
      display: flex;
@@ -120,8 +122,8 @@ table{
     display: none;
 
 }
-.nav{
-    display: ;
+.nav-2 a{
+   color:  rgb(211, 132, 5) ;
 }
 .musique{
    
@@ -175,7 +177,7 @@ table{
     width: 50%;
 }
 .playliste{
-    height: 600px;
+ 
     display: flex;
     flex-direction: column;
     justify-content: ;
@@ -192,7 +194,7 @@ table{
 }
 .contain{
     
-    height: 500px;
+    height: 300px;
     margin-top: 10Px;
     display: flex;
    justify-content: center;
@@ -200,14 +202,34 @@ table{
 }
 .block-playlist{
    border: 1px  black solid;
-   height: 45%;
-   width: 15%;
+   height: 75%;
    margin-top: 5px;
    margin-left: 40px;
 }
 .btn-p{
    text-align: center;
 }
+.side{
+    color:  rgb(211, 132, 5) ;;
+}
+ .logo-MSB3{
+    background-image: url(/ressources/image/disque.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    content: "MSB";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .logo-MSB3 p{
+     color: white;
+     text-decoration: uppercase;
+     font-size: 30px;
+ }
 
 
 
@@ -387,6 +409,9 @@ table{
     }
     .btn-p{
         text-align: center;
+    }
+    .logo-MSB3{
+        display: none;
     }
 
 
