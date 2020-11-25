@@ -34,7 +34,7 @@ header{
 @media screen  and (max-width:800px){
     header{
         border: 1px  black solid;
-        height: 550px;
+        height: 470px;
         background-image: url(/cache/slash/images/pages/electron/devices/device-windows.c2d30b5….png);
     }
     .info{
@@ -49,6 +49,7 @@ header{
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        margin-top: 20px;
     }
     .p-text{
         display: flex;
@@ -81,7 +82,7 @@ header{
     }
 .zone-bulle{
   
-    height: 650px;
+    height: 600px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -109,6 +110,29 @@ justify-content: center;
 .btn-p{
     display: flex;
     justify-content: center;
+}
+.appli{
+    height: 320px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+background: linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 5),orange,rgba(172, 34, 34,0.9));
+}
+.appli-text{
+   
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
+    text-align: center;
+    height: 150px;
+}
+.btn-appli{
+    display: flex;
+}
+.appli-text-2{
+    margin-top: 15PX;
+    text-align: center;
 }
 
 
