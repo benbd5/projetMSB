@@ -40,6 +40,8 @@ align-items: flex-end;
     display: none;
 
 }
+/*nav bar
+====================*/
 .titre-2{
 text-align: center;
 margin-left: 40px;
@@ -205,6 +207,7 @@ table{
    height: 75%;
    margin-top: 5px;
    margin-left: 40px;
+   border-radius: 5px;
 }
 .btn-p{
    text-align: center;
@@ -228,8 +231,11 @@ table{
  .logo-MSB3 p{
      color: white;
      text-decoration: uppercase;
-     font-size: 30px;
+     font-size: 0px;
  }
+.btn-play{
+font-size: 50px;  
+}
 
 
 

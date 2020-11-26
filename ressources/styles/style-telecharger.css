@@ -165,6 +165,12 @@ background: linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 40px;
+}
+.f-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
 }
 
 
@@ -181,6 +187,34 @@ background: linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 
         height: 400px;
         background: linear-gradient(to right,rgba(172, 34, 34,0.7),rgb(211, 132, 5),rgba(172, 34, 34,0.9)); ;
     }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .flex-nav-2{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 50%;
+    }
+    .flex-col-2{
+        align-self:center;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 130%;
+        margin-top: 10px;
+        
+    }
+    .flex-col-3{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
     .text{
        
         height: 200px;
@@ -273,6 +307,11 @@ background: linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 
     margin-top: 15PX;
     text-align: center;
 }
+.p-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
 
 
     
