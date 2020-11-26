@@ -45,6 +45,9 @@ BTN      =
     font-weight: bolder;
     box-shadow: 3px 3px 3px  black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .btn-color1:hover{
     border: hidden;  
