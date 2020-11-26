@@ -37,7 +37,8 @@ section a, section a:hover{
 
 .bg-monique{
     background-image: url(../image/miss\ monique.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 800px;
 }
 .flex-box1{   

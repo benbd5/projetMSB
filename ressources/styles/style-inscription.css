@@ -25,3 +25,138 @@ BTN      =
 html{
     font-family: 'Prompt', sans-serif;
 }
+h1{
+    font-size: 40px;
+}
+section a, section a:hover{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+/* connectez-vous */
+
+.bg-girl{
+    background-image: url(../image/girl-791686_1920.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.flex-box1{   
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.flex-box2{
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.border-box{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px auto;   
+    text-align: center;
+    border-radius: 20px;
+    
+    width: 100%;
+}
+
+.btn-apple{
+    width: 130px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: #000;
+    color: azure;
+    border: none;
+    font-weight: bold;
+}
+.btn-apple:hover{
+    border: 3px solid #000;
+    background-color: #fff;
+    color: #000;
+    
+}
+.btn-facebook{
+    width: 130px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: rgb(24, 11, 206);
+    color: azure;
+    border: none;
+    font-weight: bold;
+
+}
+.btn-facebook:hover{
+    border: 3px solid rgb(24, 11, 206);
+    background-color: #fff;
+    color: rgb(24, 11, 206);
+}
+.btn-google{
+    width: 130px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: azure;
+    color: rgb(48, 140, 177);
+    border: none;
+    font-weight: bold;
+
+}
+.btn-google:hover{
+    border: 3px solid rgb(48, 140, 177);
+    background-color: rgb(48, 140, 177);
+    color: azure;
+}
+.btn-connexion{
+    width: 130px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: orange;
+    color: azure;
+    border: none;
+    font-weight: bold;
+
+}
+.btn-connexion:hover{
+   
+    background-color: rgba(172, 34, 34,0.9);
+    color: azure;
+    transition: all 0.5s;
+}
+.btn-inscription{
+    width: 130px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: orange;
+    color: azure;
+    border: none;
+    font-weight: bold;
+
+}
+.btn-inscription:hover{
+   
+    background-color: rgba(172, 34, 34,0.9);
+    color: azure;
+    transition: all 0.5s;
+}
+section input{
+    margin-top: 20px;
+}
+@media (max-width:1100px){
+
+    div .col-md-5{
+        display: none;
+    }
+    .media1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+}
