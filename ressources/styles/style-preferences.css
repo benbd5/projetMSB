@@ -1,0 +1,99 @@
+/* DESCRIPTION 
+
+Information :
+
+Auteurs / Mika / Benj / Stef
+Date 23/11/2020
+Name Project : MSB ( Musique super bien )
+Version : 1.0.0
+ 
+Colors :
+
+Header   =
+Body     =
+Footer   =   
+H1       =
+P        =
+BTN      =
+
+
+*/
+
+
+/* Global */
+
+html{
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+
+
+/* sidebar */
+
+.sidebar1{
+    display: ;
+    position: relative, 
+}
+
+
+/* profil user */
+
+.profil-user1{
+    
+}
+.photo-profil{
+    width: 35PX;
+    height: 35PX;
+    border-radius:20px ;
+   
+}
+.profil-user1 i{
+    font-size: 130%;
+    
+}
+.flex-start1{
+    display: flex;
+    align-items: center;
+}
+.flex-end1{
+    display: flex;
+    flex-flow:wrap row;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* preferences */
+
+.preferences1 img{
+    border-radius: 5px;
+}
+.center-row{
+    display: flex;
+    justify-content: center;
+}
+
+.bgi1{
+   width: 300px;
+   height: 350px;
+   text-align: center;
+}
+.bgi2{
+    width: 300px;
+   height: 350px;
+    text-align: center;
+ }
+ .bgi3{
+    width: 300px;
+   height: 350px;
+    text-align: center;
+ }
+ .bgi4{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+ }
+.flex-center1{
+    
+    text-align: center;
+}
+
