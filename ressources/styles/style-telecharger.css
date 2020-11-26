@@ -161,6 +161,11 @@ background: linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 
 }.btn-color1{
     margin-left: 15px;
 }
+.p-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
