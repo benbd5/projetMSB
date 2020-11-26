@@ -42,11 +42,49 @@ h2 {
 
 /* ===== OFFRE SPECIALE ===== */
 
+.offre-speciale .logo-MSB {
+    margin-top: 10px;
+}
+
+.profite a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+}
+
+.btn-connexion {
+    width: 130px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: orange;
+    color: azure;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-connexion:hover {
+    background-color: rgba(172, 34, 34, 0.9);
+    color: azure;
+    transition: all 0.5s;
+}
+
+.profite {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .offre-speciale {
     margin: 0;
-    background: var(--degrader);
+    background: linear-gradient(to right, rgba(207, 68, 68, 0.9), rgb(224, 154, 42));
     width: 100%;
     padding: 0;
+    color: white;
 }
 
 .offre-speciale h1 {
@@ -63,11 +101,15 @@ h2 {
 
 .choix {
     margin: 0 20px 0 20px;
-    height: 100vh;
+    height: 60vh;
 }
 
 .home-content {
     margin-top: 40px;
+}
+
+.home-content p {
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -88,13 +130,17 @@ h2 {
 
 /* ===== FONCTIONNALITÉS ===== */
 
+.fonctionnalite {
+    margin-bottom: 40px;
+}
+
 .big-bloc {
-    background-color: wheat;
+    background-color: rgb(231, 179, 95);
     border-radius: 10px;
 }
 
 .little-bloc {
-    background-color: wheat;
+    background-color: rgb(231, 179, 95);
 }
 
 .big-bloc, .little-bloc {
@@ -104,7 +150,7 @@ h2 {
 }
 
 .big-bloc:hover, .little-bloc:hover {
-    box-shadow: 10px -10px teal;
+    box-shadow: 10px -10px rgba(172, 34, 34, 0.9);
     background-color: white;
 }
 
@@ -124,6 +170,7 @@ h2 {
 .devices {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 .device-card img {
@@ -150,7 +197,7 @@ h2 {
     }
 }
 
-/* test */
+/* ===== FAQ ===== */
 
 .card {
     box-shadow: none;
@@ -260,7 +307,14 @@ h2 {
     font-family: FontAwesome;
     display: inline-block;
     padding-right: 3px;
-    vertical-align: middle;
     font-size: .756em;
     color: #405189;
+}
+
+/* footer .social-color {
+    background-color: rgb(236, 236, 236);
+} */
+
+footer .social-color i {
+    color: black;
 }

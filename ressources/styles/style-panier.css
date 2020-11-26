@@ -25,6 +25,11 @@ html {
     font-family: 'Prompt', sans-serif;
 }
 
+/* body {
+    display: flex;
+    justify-content: center;
+} */
+
 /* ===== HEADER ===== */
 
 nav .navbar .flex-nav {
