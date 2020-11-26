@@ -19,7 +19,7 @@ BTN      =
 
 */
 
-/* Global */
+/* ===== Global ===== */
 
 html {
     font-family: 'Prompt', sans-serif;
@@ -125,12 +125,12 @@ nav .navbar .flex-nav {
 }
 
 @media screen and (min-width: 768px) {
-    .edit {
-        margin: 0;
-    }
     .compte .btn-chgt {
         width: auto;
         height: 60px;
+    }
+    .edit {
+        margin-top: 0px;
     }
 }
 
@@ -146,6 +146,8 @@ nav .navbar .flex-nav {
 }
 
 /* ===== FOOTER ===== */
+
+/* contenu footer */
 
 .social-color {
     background-color: rgb(123, 154, 255);
@@ -164,5 +166,21 @@ nav .navbar .flex-nav {
     }
     .logo-MSB2 p {
         font-size: 50px;
+    }
+}
+
+/* pour fixer le footer en bas de page */
+
+@media screen and (min-width: 1300px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .edit {
+        margin-top: 90px;
+    }
+    section {
+        margin-top: 90px;
     }
 }

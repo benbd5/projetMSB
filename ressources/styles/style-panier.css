@@ -1,0 +1,146 @@
+/* DESCRIPTION 
+
+Information :
+
+Auteurs / Mika / Benj / Stef
+Date 23/11/2020
+Name Project : MSB ( Musique super bien )
+Version : 1.0.0
+ 
+Colors :
+
+Header   =
+Body     =
+Footer   =   
+H1       =
+P        =
+BTN      =
+
+
+*/
+
+/* ===== Global ===== */
+
+html {
+    font-family: 'Prompt', sans-serif;
+}
+
+/* ===== HEADER ===== */
+
+nav .navbar .flex-nav {
+    height: 150px;
+}
+
+@media (max-width:430px) {
+    nav .navbar .flex-nav {
+        height: 300px;
+    }
+}
+
+/* ===== PAIEMENT ===== */
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../image/panier.jpg);
+    background-position: center;
+    height: 100px;
+}
+
+#test {
+    padding-left: 15px;
+}
+
+.card-footer {
+    background-color: #fff;
+    padding: 12px 0;
+}
+
+.offre {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.btn-connexion {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    margin-bottom: -20px;
+    border-radius: 8px;
+    background-color: orange;
+    color: azure;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-connexion:hover {
+    color: azure;
+    transition: all 0.5s;
+}
+
+.btn-connexion:active {
+    background-color: rgba(172, 34, 34, 0.9);
+    color: azure;
+    transition: all 0.5s;
+}
+
+.rappel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../image/panier.jpg);
+    background-position: center;
+    height: 90px;
+    margin-top: 20px;
+    color: white;
+}
+
+/* ===== FOOTER ===== */
+
+.social-color {
+    background-color: rgb(123, 154, 255);
+}
+
+.social-color i {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-MSB2 {
+        margin-left: -50px;
+        width: 150px;
+        height: 150px;
+    }
+    .logo-MSB2 p {
+        font-size: 50px;
+    }
+}
+
+/* pour fixer le footer en bas de page */
+
+/* @media screen and (min-width: 1300px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .edit {
+        margin-top: 90px;
+    }
+    section {
+        margin-top: 90px;
+    }
+} */
