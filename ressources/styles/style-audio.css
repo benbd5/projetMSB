@@ -24,6 +24,7 @@ BTN      =
 
 html{
     font-family: 'Prompt', sans-serif;
+    
 }
 header{
     display: flex;
@@ -135,12 +136,25 @@ table{
     align-items: center;
 
 }
-.photo-musique{
-    width: 60%;
+
+.photo-musique img {
+    transition: transform .2s;
 }
-.titre-music{
+.photo-musique img:hover {
+    transform: scale(1.2);
+}
+}
+.photo-musique{
+    width: 70%;
+    align-self: start;
+    border: 1px black solid;
+}
+.titre-music {
     margin-top: 15px;
     width: auto;
+    align-self: center;
+   
+    text-align: center;
 }
 .bar-music{
     border: 1px black solid;
@@ -209,6 +223,9 @@ table{
    margin-left: 40px;
    border-radius: 5px;
 }
+.block-playlist:hover{
+    transform: scale(1.1);
+}
 .btn-p{
    text-align: center;
 }
@@ -231,7 +248,8 @@ table{
  .logo-MSB3 p{
      color: white;
      text-decoration: uppercase;
-     font-size: 0px;
+     font-size:30px;
+     font-family: 'Prompt', sans-serif;
  }
 .btn-play{
 font-size: 50px;  
