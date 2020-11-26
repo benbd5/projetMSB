@@ -254,6 +254,65 @@ table{
 .btn-play{
 font-size: 50px;  
 }
+.menu-deroulant{
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.fa-user-circle {
+    font-size: x-large;
+    color: black;
+}
+
+.modif-mg {
+    margin-bottom: 20px;
+}
+.dropbtn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 50px;
+    left: -50px;
+    max-width: 350px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+
+}
+
+#drop-profile {
+    /* left: -140px; */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+.fa-user-circle {
+    font-size: 50px;
+}
 
 
 
