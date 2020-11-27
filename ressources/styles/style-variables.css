@@ -72,7 +72,7 @@ html{
     Pour la version static ==>  <div class="logo-MSB2"><p>MSB</p></div> */
 
 .logo-MSB, .logo-MSB2{
-    background-image: url(./ressources/image/disque.jpg);
+    background-image: url(../image/disque.jpg);
     background-size: cover;
     border: none;
     border-radius: 50%;
