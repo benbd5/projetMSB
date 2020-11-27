@@ -54,9 +54,7 @@ a,a:hover{
 
 /* profil user */
 
-.profil-user1{
-    
-}
+
 .photo-profil{
     width: 35PX;
     height: 35PX;
@@ -193,11 +191,63 @@ a,a:hover{
 }
 /* media query */
 
-@media (max-width:1280px){
+@media   (max-width:1280px){
+      
+    .media1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+    }  
+    .preferences1 img{
+        width: 150px;
+        height: 150px;
+    } 
+    .logo-MSB2{
+        width: 100px;
+        height: 100px;
+        margin: 50px auto;
+        font-size: 20px;
+    }
+    
+    .logo-MSB2 p{
+        
+        font-size: 30px;
+    } 
+    .bgc1,.bgc2,.bgc3,.bgc4{
+        width: 150px;
+        height: 150px;
+     }  
+    
+    
+@media (max-width:768px){
     .sidebar1{
         position: relative;
+    }  
+    .preferences1 img{
+        width: 250px;
+        height: 250px;
+    } 
+    
+    .logo-MSB2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 20px auto;
         
     }
-    p{
-        height: 20px;
+    .bgc1,.bgc2,.bgc3,.bgc4{
+        margin-bottom: 20px;
+        width: 250px;
+        height: 150px;
+      
+     }   
+}
+@media (max-width:576px){
+    div{
+        text-align: center;
     }
+    .bgi1,.bgi2,.bgi3,.bgi4{
+        margin: 0 auto;
+    }
+}
