@@ -28,6 +28,7 @@ html{
 h1{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 
@@ -242,6 +243,12 @@ a,a:hover{
         height: 150px;
       
      }   
+     h1{
+        text-align: center;
+        margin-bottom: 50px;
+        
+    }
+}
 }
 @media (max-width:576px){
     div{
@@ -250,4 +257,4 @@ a,a:hover{
     .bgi1,.bgi2,.bgi3,.bgi4{
         margin: 0 auto;
     }
-}
+  

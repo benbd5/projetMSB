@@ -144,3 +144,29 @@ th{
 .text-align{ 
     text-align: center;
 }
+/* footer */
+
+.flex-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 350%;
+    
+    
+}
+.flex-box3 i{
+    color: black;
+}
+.flex-box3 i:hover{
+    text-decoration: underline;
+    text-underline-offset: 20px;
+
+}
+.flex-box3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
