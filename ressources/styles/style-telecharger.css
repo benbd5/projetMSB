@@ -55,7 +55,7 @@ button{
 .info{
     border-radius:10px ;
     height: 400px;
-    background: linear-gradient(to right,rgba(172, 34, 34,0.7),rgb(211, 132, 5),rgba(172, 34, 34,0.9)); ;
+    background: linear-gradient(to right, rgba(207, 68, 68, 0.9), rgb(224, 154, 42)); ;
 
 }
 .text{
@@ -138,7 +138,7 @@ justify-content: center;
     border: 1px black solid;
     display: flex;
     flex-direction: column;
-background: linear-gradient(to right,rgba(172, 34, 34,0.9),orange,rgb(211, 132, 5),orange,rgba(172, 34, 34,0.9));
+background: linear-gradient(to right, rgba(207, 68, 68, 0.9), rgb(224, 154, 42));
 }
 .appli-text{
    
