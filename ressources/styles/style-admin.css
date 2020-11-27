@@ -159,8 +159,10 @@ th{
     color: black;
 }
 .flex-box3 i:hover{
-    text-decoration: underline;
-    text-underline-offset: 20px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: orange;
+    transition: all 0.5s;
 
 }
 .flex-box3{
