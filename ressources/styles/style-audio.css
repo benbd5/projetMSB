@@ -113,6 +113,7 @@ table{
     justify-content: space-evenly;
     margin-top: 20px;
     height: 200px;
+    position: fixed;
      
  }
 
@@ -129,7 +130,6 @@ table{
    color:  rgb(211, 132, 5) ;
 }
 .musique{
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,11 +143,11 @@ table{
 .photo-musique img:hover {
     transform: scale(1.2);
 }
-}
+
 .photo-musique{
     width: 70%;
-    align-self: start;
-    border: 1px black solid;
+    align-self: center;
+    text-align: center;
 }
 .titre-music {
     margin-top: 15px;
